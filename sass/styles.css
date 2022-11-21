@@ -5,6 +5,64 @@ h1 {
   text-align: center;
 }
 
+.container--flex {
+  display: flex;
+}
+
+.card__title {
+  color: black;
+  opacity: 0.5;
+  margin-left: 30px;
+}
+
+.card__p1 {
+  color: black;
+  width: 303px;
+  font-size: 35px;
+  margin-left: 28px;
+}
+
+.card__date {
+  color: black;
+  opacity: 0.5;
+  font-size: 23px;
+  margin-left: 28px;
+}
+
+.flex {
+  display: flex;
+}
+
+.card__button {
+  color: black;
+  font-size: 25px;
+  margin-left: 28px;
+}
+
+.card__row {
+  background-color: rgb(255, 255, 255);
+  padding: 9px;
+  margin-left: 20px;
+  width: 23px;
+  height: 12px;
+}
+
+.button--variant {
+  background-color: #ffe24d;
+  padding: 18px 29px;
+  margin-top: 2px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  transition: background-color 50s;
+  border: #ffe24d;
+  width: 340px;
+}
+
+.button--variant:hover {
+  background: linear-gradient(90deg, #ffe24d 11.03%, #99cc7e 53.39%, #93e0f1 103.45%);
+}
+
 body {
   margin: 0 auto;
   width: 555px;
