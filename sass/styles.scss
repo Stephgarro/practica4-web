@@ -1,0 +1,15 @@
+@import 'partials/title';
+@import 'partials/cards';
+@import 'partials/final-button';
+
+body {
+  margin: 0 auto;
+  width: 555px;
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
