@@ -1,1 +1,18 @@
-/*# sourceMappingURL=styles.css.map */
+h1 {
+  margin-top: 110px;
+  margin-bottom: 70px;
+  font-size: 60px;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  width: 555px;
+  font-family: "Roboto", sans-serif;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}/*# sourceMappingURL=styles.css.map */
