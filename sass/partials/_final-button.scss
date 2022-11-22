@@ -1,0 +1,16 @@
+.button--variant{
+  background-color: #ffe24d;
+  padding: 18px 29px ;
+  margin-top: 35px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  transition: background-color 50s  ;
+  border: #ffe24d;
+  width: 340px;
+  margin-left: 400px;
+  }
+  
+  .button--variant:hover {
+    background: linear-gradient(90deg,#ffe24d 11.03%,#99cc7e 53.39%,#93e0f1 103.45%);
+  }
