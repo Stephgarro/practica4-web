@@ -1,6 +1,7 @@
 @import 'partials/title';
 @import 'partials/cards';
 @import 'partials/final-button';
+@import'patials/responsive';
 
 body {
   margin: 0 auto;
@@ -13,6 +14,7 @@ a {
   text-decoration: none;
   color: #222222;
 }
+
 
 @media (max-widt: 640px) {
   .general__title{
@@ -59,3 +61,4 @@ a {
   }
 
 }
+
