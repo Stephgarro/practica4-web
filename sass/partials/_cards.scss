@@ -9,13 +9,21 @@
 
 .card {
   background-color: white;
-  height: 410px;
+  max-height: 750px;
   width: 237px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: -4px 19px 45px -11px rgba(36,36,36,0.21);
   -webkit-box-shadow: -4px 19px 45px -11px rgba(36,36,36,0.21);
-  -moz-box-shadow: -4px 19px 45px -11px rgba(36,36,36,0.21);
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #ffe24d;
+
+  .card__button {
+    visibility: visible;
+  }
 }
 
 .card__img {
@@ -42,6 +50,7 @@
   color: black;
   width: 192px;
   font-size: 22px;
+  font-weight: 700;
   margin-left: 10px;
 }
 
@@ -60,13 +69,33 @@
   color: black;
   font-size: 15px;
   margin-left: 10px;
+  margin-left: 10px;
+  visibility: hidden;
+}
 
+.card__button--margin1 {
+  margin-top: 62px;
+}
+
+.card__button--margin2 {
+  margin-top: 88px;
+}
+
+.card__button--margin3 {
+  margin-top: 114px;
 }
 
 .card__row{
   background-color: rgb(255, 255, 255);
   padding: 9px;
-  margin-left: 20px;
+  margin-left: 9px;
+  width: 16px;
+  height: 14px;
+  margin-bottom: -9px;
+}
+
+.card__row:hover {
+  background: linear-gradient(90deg,#ffe24d 11.03%,#99cc7e 53.39%,#93e0f1 103.45%);
   width: 23px;
-  height: 12px;
+  transition: 0.3s;
 }
